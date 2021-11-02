@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Bottom NavBar")),
+      appBar: AppBar(title: Text("Bottom Nav Bar")),
       body: SizedBox.expand(
         child: PageView(
           controller: _pageController,
